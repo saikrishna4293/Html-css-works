@@ -1,0 +1,37 @@
+.nav{
+	background-color: skyblue;
+	height:50px;
+	padding: 0;
+	width: 400px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: 50px;
+	line-height: 48px;
+}
+li{
+	display: inline;
+	padding: 10px;
+	vertical-align: middle;
+}
+ul li a{
+	text-decoration: none;
+	background-color: lightgreen;
+	color: black;
+	width: 50px;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	text-align: center;
+	/*to align height in center combine this two properties */
+	height: 25px;
+	line-height: 25px;
+}
+li a:hover{
+	 background-color: green;
+	 color: white;
+}

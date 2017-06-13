@@ -1,0 +1,24 @@
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0px;
+}
+ul li a{
+	text-decoration: none;
+	background-color: lightgreen;
+	color: black;
+	display: block;
+	width: 50px;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	text-align: center;
+	/*to align height in center combine this two properties */
+	height: 25px;
+	line-height: 25px;
+}
+ul li a:hover{
+	 background-color: green;
+	 color: white;
+}
